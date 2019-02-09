@@ -3,7 +3,7 @@ server {
     server_name site.com;
 
     index index.php index.html index.htm;
-    set $root_path '/app';
+    set $root_path '/app/public';
     root $root_path;
 
     location / {
