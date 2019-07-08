@@ -18,6 +18,4 @@ COPY ./conf/nginx/site.com /etc/nginx/sites-enabled/site.com
 
 CMD service nginx start && \
     service php7.2-fpm start && \
-    service mysql start && \
     tail -f /dev/null
-
